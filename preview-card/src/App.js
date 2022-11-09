@@ -28,7 +28,7 @@ function App() {
     <div className="h-screen w-screen  flex justify-center items-center bg-[#f2ebe3]">
       <main className="bg-white w-[350px] md:w-full  md:max-w-screen-md overflow-hidden  mx-auto grid grid-cols-1 md:grid-cols-2 rounded-lg">
         <picture>
-          <img src={mobile ? pictureM : pictureD} alt="picture" className="w-max h-max object-contain " />
+          <img src={mobile ? pictureM : pictureD} alt="parfume" className="w-max h-max object-contain " />
         </picture>
         <div className="p-6 md:p-10 flex flex-col">
           <h3 className="text-gray-500 uppercase text-base md:text-lg tracking-[5px] font-Montserrat mb-4 md:mb-6">
